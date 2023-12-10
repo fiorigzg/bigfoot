@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+#app {
+  width: 50%;
+  margin-left: 15%;
+  margin-top: 0;
+  padding: 5%;
+  height: fit-content;
+  margin: 0 auto;
+  font-weight: normal;
+  background-color: #e6edff;
+  padding-bottom: 0;
+}
+
+body {    
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media (max-width: 750px) {
+  #app {
+    width: 90%;
+    
+  }
+}
