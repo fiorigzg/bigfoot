@@ -9,7 +9,7 @@ import Home from '@/pages/Home.vue';
 
 
 const pinia = createPinia();
-const app = createApp(Home);
+const app = createApp(Research);
 
 app.use(pinia);
 app.use(VueHighlightJS)
